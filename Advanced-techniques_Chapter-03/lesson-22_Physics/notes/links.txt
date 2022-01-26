@@ -1,0 +1,64 @@
+Libraries
+There are multiple available libraries. First, you must decide if you need a 3D library or a 2D library. While you might think it has to be a 3D library because Three.js is all about 3D, you might be wrong. 2D libraries are usually much more performant, and if you can sum up your experience physics up to 2D collisions, you better use a 2D library.
+
+One example is if you want to create a pool game. The balls can collide and bounce on the walls, but you can project everything on a 2D plane. You can design balls as circles in the physics world, and the walls are simple rectangles. Indeed, you won't be able to do tricks hitting the bottom of the ball so that it can jump over the other balls.
+
+An excellent example of a project done like this is Ouigo Let's play by Merci Michel. They used a 2D physics library because every collision and animation can be represented in a 2D space.
+
+For 3D physics, there are three main libraries:
+
+Ammo.js
+Website: http://schteppe.github.io/ammo.js-demos/
+Git repository: https://github.com/kripken/ammo.js/
+Documentation: No documentation
+Direct JavaScript port of Bullet (a physics engine written in C++)
+A little heavy
+Still updated by a community
+Cannon.js
+Website: https://schteppe.github.io/cannon.js/
+Git repository: https://github.com/schteppe/cannon.js
+Documentation: http://schteppe.github.io/cannon.js/docs/
+Lighter than Ammo.js
+More comfortable to implement than Ammo.js
+Mostly maintained by one developer
+Hasn't been updated for many years
+There is a maintained fork
+Oimo.js
+Website: https://lo-th.github.io/Oimo.js/
+Git repository: https://github.com/lo-th/Oimo.js
+Documentation: http://lo-th.github.io/Oimo.js/docs.html
+Lighter than Ammo.js
+Easier to implement than Ammo.js
+Mostly maintained by one developer
+Hasn't been updated for 2 years
+For 2D physics, there are many libraries, but here's the most popular:
+
+Matter.js
+Website: https://brm.io/matter-js/
+Git repository: https://github.com/liabru/matter-js
+Documentation: https://brm.io/matter-js/docs/
+Mostly maintained by one developer
+Still kind of updated
+P2.js
+Website: https://schteppe.github.io/p2.js/
+Git repository: https://github.com/schteppe/p2.js
+Documentation: http://schteppe.github.io/p2.js/docs/
+Mostly maintained by one developer (Same as Cannon.js)
+Hasn't been update for 2 years
+Planck.js
+Website: https://piqnt.com/planck.js/
+Git repository: https://github.com/shakiba/planck.js
+Documentation: https://github.com/shakiba/planck.js/tree/master/docs
+Mostly maintained by one developer
+Still updated nowadays
+Box2D.js
+Website: http://kripken.github.io/box2d.js/demo/webgl/box2d.html
+Git repository: https://github.com/kripken/box2d.js/
+Documentation: No documentation
+Mostly maintained by one developer (same as Ammo.js)
+Still updated nowadays
+We won't use a 2D library in this lesson, but the 2D library code would be very similar to a 3D library code. The main difference is the axes you have to update.
+
+There are already solutions that try to combine Three.js with libraries like Physijs. Still, we won't use any of those solutions to get a better learning experience and better understand what's going on.
+
+While Ammo.js is the most used library and particularly with Three.js, as you can see in the examples, we will go for Cannon.js. The library is more comfortable to implement in our project and easier to use.

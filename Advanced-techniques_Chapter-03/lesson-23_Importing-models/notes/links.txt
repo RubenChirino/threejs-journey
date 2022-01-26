@@ -1,0 +1,16 @@
+ ## Find a model ##
+
+https://github.com/KhronosGroup/glTF-Sample-Models
+
+https://github.com/KhronosGroup/glTF-Sample-Models/tree/master/2.0
+
+ ## Draco compression ##
+
+Google develops the algorithm under the open-source Apache License:
+
+Website: https://google.github.io/draco/
+Git repository: https://github.com/google/draco
+
+ ## Three.js editor ##
+
+Three.js posses its own online editor. You can find it here: https://threejs.org/editor/

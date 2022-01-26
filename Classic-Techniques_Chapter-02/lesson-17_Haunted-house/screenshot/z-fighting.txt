@@ -1,0 +1,2 @@
+z-fighting. La lucha Z ocurre cuando tienes dos caras en la misma posición (o muy cerca). 
+La GPU no sabe cuál está más cerca que el otro, y obtienes una extraña pelea visual de píxeles.

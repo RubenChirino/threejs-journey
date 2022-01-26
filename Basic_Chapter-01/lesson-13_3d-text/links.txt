@@ -1,0 +1,6 @@
+Hay muchas formas de obtener fuentes en ese formato(JSON). Primero, puede convertir su 
+fuente con convertidores como este: https://gero3.github.io/facetype.js/ . 
+Debe proporcionar un archivo y hacer clic en el botón convertir.
+
+//MAPCAPS TEXTURES
+https://github.com/nidorx/matcaps

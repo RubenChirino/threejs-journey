@@ -1,0 +1,18 @@
+Explications and Documentation
+
+https://marmoset.co/posts/basic-theory-of-physically-based-rendering/
+
+https://marmoset.co/posts/physically-based-rendering-and-you-can-too/
+
+Where to find Textures:
+
+poliigon.com
+
+3dtextures.me
+
+arroway-textures.ch
+
+Siempre asegúrese de tener derecho a usar la textura si no es para uso personal.
+
+También puede crear las suyas propias usando fotos y software 2D como Photoshop 
+o incluso texturas procedimentales con software como Substance Designer .

@@ -1,0 +1,7 @@
+https://github.com/nidorx/matcaps (Where to find mapcaps)
+
+https://hdrihaven.com/ (Where to find Enviroment maps)
+
+Pero tenemos un problema. Como dijimos, Three.js solo admite mapas de cubos. 
+Para convertir un HDRI en un mapa de cubos, puede utilizar esta herramienta en línea:
+https://matheowis.github.io/HDRI-to-CubeMap/ 

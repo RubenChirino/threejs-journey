@@ -1,0 +1,5 @@
+If you want to know more about Dat.GUI, here are some links:
+
+Github repository: https://github.com/dataarts/dat.gui
+API documentation: https://github.com/dataarts/dat.gui/blob/HEAD/API.md
+A simple but complete example: https://jsfiddle.net/ikatyang/182ztwao/
